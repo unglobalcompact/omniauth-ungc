@@ -8,7 +8,7 @@ module OmniAuth
       option :name, :ungc
 
       option :client_options, {
-        site: "http://localhost:3000",
+        site: "https://staging.unglobalcompact.org",
       }
 
       uid { raw_info["id"] }
