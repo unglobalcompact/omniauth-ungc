@@ -1,7 +1,2 @@
-require "omniauth/ungc/version"
-
-module Omniauth
-  module Ungc
-    # Your code goes here...
-  end
-end
+require 'omniauth/ungc/version'
+require 'omniauth/strategies/ungc'
